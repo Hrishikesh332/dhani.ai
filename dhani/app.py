@@ -3,6 +3,27 @@ import os
 from streamlit_option_menu import option_menu
 import cohere
 
+page_element="""
+<style>
+[data-testid="stAppViewContainer"]{
+background-image: url("https://wallpapercave.com/wp/wp6907416.jpg");
+background-size: cover;
+}
+[data-testid="stHeader"]{
+background-color: rgba(0,0,0,0);
+}
+[data-testid="stSidebar"]> div:first-child{
+background-image: url("https://th.bing.com/th/id/OIP.8ZY46JwA7_kiFkDNEfSM6AHaNJ?pid=ImgDet&rs=1");
+background-size: cover;
+}
+</style>
+
+"""
+st.markdown(page_element, unsafe_allow_html=True)
+
+with st.sidebar:
+    st.image("logodhani.png")
+    
 selected = option_menu(
     menu_title=None,
     options=["Home","Dhani Content"],
