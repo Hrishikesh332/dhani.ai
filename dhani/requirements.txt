@@ -1,3 +1,0 @@
-streamlit
-cohere
-streamlit_option_menu
