@@ -21,7 +21,7 @@ background-size: cover;
 st.markdown(page_element, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.image("logodhani.png")
+    st.image("https://github.com/Hrishikesh332/dhani.ai/blob/main/dhani/logodhani.png")
     
 selected = option_menu(
     menu_title=None,
