@@ -11,6 +11,7 @@ background-size: cover;
 }
 [data-testid="stMarkdownContainer"]{
 background-color: rgba(210,215,211,1);
+opacity: 0.3;
 }
 
 [data-testid="stHeader"]{
