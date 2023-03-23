@@ -48,7 +48,8 @@ if (selected=="Dhani Content"):
     button=st.button("Answer")
 
     def response1(ques):
-        cohere.api_key = cohere.Client("")
+        s=st.secrets['API']
+        cohere.api_key = cohere.Client(s)
 
         response = cohere.api_key.generate(  
         model='command-xlarge-20221108',  
