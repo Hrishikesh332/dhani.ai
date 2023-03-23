@@ -9,6 +9,10 @@ page_element="""
 background-image: url("https://wallpapercave.com/wp/wp6907416.jpg");
 background-size: cover;
 }
+[data-testid="stMarkdownContainer"]{
+background-color: rgba(23,231,12,131);
+}
+
 [data-testid="stHeader"]{
 background-color: rgba(0,0,0,0);
 }
